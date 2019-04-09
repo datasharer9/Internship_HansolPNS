@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<pbc>
+
+  <pbi-name name="hsni.om.om02.salesOrdMngt.pbc.ISalesOrdMngt">
+    <pbc>hsni.om.om02.salesOrdMngt.pbc.SalesOrdMngt</pbc>
+  </pbi-name>
+  
+    <pbi-name name="hsni.om.om02.salesOrdMngt_test.pbc.ISalesOrdMngt_test">
+    <pbc>hsni.om.om02.salesOrdMngt_test.pbc.SalesOrdMngt_test</pbc>
+  </pbi-name>
+  
+  <pbi-name name="hsni.om.om02.custCdMpng.pbc.ICustCdMpng">
+    <pbc>hsni.om.om02.custCdMpng.pbc.CustCdMpng</pbc>
+  </pbi-name>
+
+  <pbi-name name="hsni.om.om02.planVanningMngt.pbc.IPlanVanningMngt">
+    <pbc>hsni.om.om02.planVanningMngt.pbc.PlanVanningMngt</pbc>
+  </pbi-name>
+  
+    <pbi-name name="hsni.om.om02.salesOrdMngt.pbc.IJsyTestMngt">
+    <pbc>hsni.om.om02.salesOrdMngt.pbc.JsyTestMngt</pbc>
+  </pbi-name>
+
+    <pbi-name name="hsni.om.om02.ordAnalyMngt.pbc.IOrdAnalyMngt">
+    <pbc>hsni.om.om02.ordAnalyMngt.pbc.OrdAnalyMngt</pbc>
+  </pbi-name>  
+
+  <pbi-name name="hsni.om.om02.shipmentMngt.pbc.IShipmentMngt">
+    <pbc>hsni.om.om02.shipmentMngt.pbc.ShipmentMngt</pbc>
+  </pbi-name>  
+
+  <pbi-name name="hsni.om.om02.simpleSalesOrdMngt.pbc.ISimpleSalesOrdMngt">
+    <pbc>hsni.om.om02.simpleSalesOrdMngt.pbc.SimpleSalesOrdMngt</pbc>
+  </pbi-name>
+  
+  <pbi-name name="hsni.om.om02.wasteOrdMngt.pbc.IWasteOrdMngt">
+    <pbc>hsni.om.om02.wasteOrdMngt.pbc.WasteOrdMngt</pbc>
+  </pbi-name>
+
+</pbc>

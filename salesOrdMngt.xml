@@ -1,0 +1,481 @@
+<navigation-mapper>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.createCustOrdStatSms">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CreateCustOrdStatSmsGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ??대?? 湲곕낯 ???留ㅼ?ㅻ?? ??깅?? -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveIsdBasisCopyTgtOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveIsdBasisCopyTgtOrdGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCustCtrtOrdType">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCustCtrtOrdTypeGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.createIsdBasisSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CreateIsdBasisSalesOrdGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveItemCdList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveItemCdListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.confirmAvailStockBatch">
+    <command>hsni.om.om02.salesOrdMngt.cmd.ConfirmAvailStockBatchGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- ???留ㅼ?ㅻ??寃?????????? -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveSalesOrdSearchList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveSalesOrdSearchListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.cudSalesOrdMngt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CudSalesOrdMngtGmd</command>
+  </action-name>
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveSalesOrdPartCmptList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveSalesOrdPartCmptListGmd</command>
+  </action-name>
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveMdfDlySalesOrdList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveMdfDlySalesOrdListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveSalesOrdManualCmpt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveSalesOrdManualCmptGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.saveSalesOrdManualCmpt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveSalesOrdManualCmptGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ?????몄?ㅻ????깅?? -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveExceptSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveExceptSalesOrdGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCustCtrtExceptOrdType">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCustCtrtExceptOrdTypeGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCustOrdTypeEachCtrt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCustOrdTypeEachCtrtGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCustOrdTypeEachCtrtTPL">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCustOrdTypeEachCtrtTPLGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.saveExceptSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveExceptSalesOrdGmd</command>
+  </action-name>
+  
+   <action-name name="hsni.om.om02.salesOrdMngt.retrieveSalesOfcrInfo">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveSalesOfcrInfoGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ???留ㅼ?ㅻ??????????대?? -->
+  <!-- ************************ -->
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveSalesOrdMdfHist">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveSalesOrdMdfHistGmd</command>
+  </action-name>
+
+
+  <!-- ************************ -->
+  <!-- ??댁???????????留ㅼ?ㅻ?? ??ъ????⑷??由?  -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveOceanImpSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveOceanImpSalesOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveOceanImpSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveOceanImpSalesOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.divideOceanImpTran">
+    <command>hsni.om.om02.salesOrdMngt.cmd.DivideOceanImpTranGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ???湲곗?ㅻ??愿?由? -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.RetrieveBackOrderList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBackOrderListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveBackOrderItemList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBackOrderItemListGmd</command>
+  </action-name>
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.RetrieveAvailStockConfYn">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveAvailStockConfYnGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveAvailStock">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveAvailStockGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.divideBackOrder">
+    <command>hsni.om.om02.salesOrdMngt.cmd.DivideBackOrderGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.RetrieveBackOrderMultiList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBackOrderMultiListGmd</command>
+  </action-name>
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.divideAllBackOrder">
+    <command>hsni.om.om02.salesOrdMngt.cmd.DivideAllBackOrderGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ??댁?????留ㅼ?ㅻ?? ??ㅽ??愿?由?  -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveDomSalesExceMngt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveDomSalesExceMngtGmd</command>
+  </action-name>
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.saveDomSalesOrdExceMngt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveDomSalesOrdExceMngtGmd</command>
+  </action-name>
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.cancelSO">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CancelSOGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.deleteWorkRouteDomSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.DeleteWorkRouteDomSalesOrdGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- TPL ??댁?????異????留ㅼ?ㅻ?? ??ъ????⑷??由?  -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveTplOceanExpSalesOrdFwd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveTplOceanExpSalesOrdFwdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveTplOceanExpSalesOrdFwd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveTplOceanExpSalesOrdFwdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.divideTplOceanExpTran">
+    <command>hsni.om.om02.salesOrdMngt.cmd.DivideTplOceanExpTranGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveShipOfcrList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveShipOfcrListGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- ??????蹂대?????留ㅼ?ㅻ?? 愿?由?  -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveMdfDlySalesOrdDtl">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveMdfDlySalesOrdDtlGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveMdfDlySalesOrdDtlItemHist">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveMdfDlySalesOrdDtlItemHistGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.applyMdfDlySalesOrdDtl">
+    <command>hsni.om.om02.salesOrdMngt.cmd.ApplyMdfDlySalesOrdDtlGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.rejectMdfDlySalesOrdDtl">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RejectMdfDlySalesOrdDtlGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- ???留ㅼ?ㅻ??Partial ???猷? ?????? 愿?由?  -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveSalesOrdPartCmptDtl">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveSalesOrdPartCmptDtlGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.updateSalesOrdPartCmpt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.UpdateSalesOrdPartCmptGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- 怨???? ??댁?????異? ???留ㅼ?ㅻ?? ??ъ????⑷??由? -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveBranchOceanExpSalesOrdFwd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBranchOceanExpSalesOrdFwdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveBranchOceanExpSalesOrdBookingList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBranchOceanExpSalesOrdBookingListGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveBranchOceanExpSalesOrdFwd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveBranchOceanExpSalesOrdFwdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveCustExcaOfcrNm">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveCustExcaOfcrNmGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveCargoFormCd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveCargoFormCdGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- 怨?媛???ㅻ????ㅻ??紐⑸??議고?? -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCustOrdErrList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCustOrdErrListGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ?????? -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCustOrdList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCustOrdListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.saveSalesOrdMpng">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveSalesOrdMpngGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ???怨듭????????留ㅼ?ㅻ????ъ????⑷??由?   -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveAirImpSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveAirImpSalesOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveAirImpSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveAirImpSalesOrdGmd</command>
+  </action-name>
+  <!-- ************************ -->
+  <!-- ???怨듭??異????留ㅼ?ㅻ????ъ????⑷??由?   -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveAirExpSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveAirExpSalesOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveAirExpSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveAirExpSalesOrdGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveMbl">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveMblGmd</command>
+  </action-name>  
+
+  <!-- ************************ -->
+  <!-- ???留ㅼ?ㅻ?? 痍⑥??  -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.cancelSO">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CancelSOGmd</command>
+  </action-name> 
+
+  <!-- ************************ -->
+  <!-- ???異???????留ㅼ?ㅻ?? ??ㅽ??愿?由?  -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveExpImpSalesOrdExceMngt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveExpImpSalesOrdExceMngtGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.saveExpImpSalesOrdExceMngt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveExpImpSalesOrdExceMngtGmd</command>
+  </action-name> 
+  
+  <!-- ************************ -->
+  <!-- ??????BL?????? -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveImpBlCustOrdNo">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveImpBlCustSalesOrdGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveImpBlOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveImpBlOrdGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.createImpBlSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CreateImpBlSalesOrdGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.cancelImpBlSalesOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CancelImpBlSalesOrdGmd</command>
+  </action-name> 
+  
+
+  <!-- ************************ -->
+  <!-- ??????異?怨???ㅻ??遺?諛? -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveImpGiOrdList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveImpGiOrdListGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveImpGiItemWorkRouteList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveImpGiItemWorkRouteListGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveBlAvailStock">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBlAvailStockGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.saveDivideImpGiOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveDivideImpGiOrdGmd</command>
+  </action-name> 
+
+    <!-- ************************ -->
+  <!-- HBL 以?蹂듭“??? -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveHblNoDouble">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveHblNoDoubleGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- 異?怨?痍⑥??愿?由?   -->
+  <!-- ************************ -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveGiCnclTgtItem">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveGiCnclTgtItemGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.cancelGi">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CancelGiGmd</command>
+  </action-name> 
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveOceanImpPtnFwdOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveOceanImpPtnFwdOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveOceanImpPtnFwdOrdInit">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveOceanImpPtnFwdOrdInitGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveOceanImpPtnFwdOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveOceanImpPtnFwdOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.divideOceanImpPtnFwdTran">
+    <command>hsni.om.om02.salesOrdMngt.cmd.DivideOceanImpPtnFwdTranGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- ??????異?怨???ㅻ??遺?諛? -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveOceanImpGiOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveOceanImpGiOrdGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveImpGiItemDiv">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveImpGiItemDivGmd</command>
+  </action-name> 
+  <action-name name="hsni.om.om02.salesOrdMngt.updateLoadDlyRsltNo">
+    <command>hsni.om.om02.salesOrdMngt.cmd.UpdateLoadDlyRsltNoGmd</command>
+  </action-name>
+ 
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveBookingNo">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBookingNoGmd</command>
+  </action-name>
+  
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveImpGiImprvItemDiv">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveImpGiImprvItemDivGmd</command>
+  </action-name> 
+  
+  <!-- ************************ -->
+  <!-- 		    항구재고오더 	    -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrievePortStockOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrievePortStockOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.dividePortStockOrd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.DividePortStockOrdGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.cancelPortStockOrdDiv">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CancelPortStockOrdDivGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- 		    전주페이퍼수출반품오더등록 	    -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCancelGiExport">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCancelGiExportGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.saveCancelGiExport">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveCancelGiExportGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- 		   출고취소오더 조회 	    -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveGiCnclOrdList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveGiCnclOrdListGmd</command>
+  </action-name>
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveGiCnclOrdItemList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveGiCnclOrdItemListGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- 		   수입BL가용재고 생성(프로시저호출) 	    -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.createImpBlAvailStock">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CreateImpBlAvailStockGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- 		일괄  자가운송전환 	    -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.changeSelfTranOrderType">
+    <command>hsni.om.om02.salesOrdMngt.cmd.ChangeSelfTranOrderTypeGmd</command>
+  </action-name>
+
+  <!-- ************************ -->
+  <!-- 		일괄  CSN 운송전환 	    -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.changeCsnTranOrderType">
+    <command>hsni.om.om02.salesOrdMngt.cmd.ChangeCsnTranOrderTypeGmd</command>
+  </action-name>
+  
+  <!-- ************************ -->
+  <!-- 		오더유형 변경 대상 조회 	    -->
+  <!-- ************************ -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveChangeOrderTypeList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveChangeOrderTypeListGmd</command>
+  </action-name>  
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveBookingSheetList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBookingSheetListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.saveBookingSheetFwd">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveBookingSheetFwdGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.cancelPaperSO">
+    <command>hsni.om.om02.salesOrdMngt.cmd.CancelPaperSOGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.updateSalesOrdPaperPartCmpt">
+    <command>hsni.om.om02.salesOrdMngt.cmd.UpdateSalesOrdPaperPartCmptGmd</command>
+  </action-name>
+
+  <!-- ************************* -->
+  <!-- 		 출고취소 사유       	     -->
+  <!-- ************************* -->
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveCancelGiList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveCancelGiListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrievePartCmptList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrievePartCmptListGmd</command>
+  </action-name>
+
+  <action-name name="hsni.om.om02.salesOrdMngt.savePartCmptList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SavePartCmptListGmd</command>
+  </action-name>
+
+<!--구희성 실습 -->
+
+  <action-name name="hsni.om.om02.salesOrdMngt.retrieveBLStatusList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.RetrieveBLStatusListGmd</command>
+  </action-name>
+  
+ 
+    <action-name name="hsni.om.om02.salesOrdMngt.saveBLStatusList">
+    <command>hsni.om.om02.salesOrdMngt.cmd.SaveBLStatusListGmd</command>
+  </action-name>
+ 
+<!--
+  <action-name name="hsni.om.om02.salesOrdMngt_test.retrieveBLStatusList">
+    <command>hsni.om.om02.salesOrdMngt_test.cmd.SaveBLStatusListGmd</command>
+  </action-name>
+  -->
+
+</navigation-mapper>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<statements>
+
+  <!-- ************************ -->
+  <!-- 내부 기본 판매오더 등록 -->
+  <!-- ************************ -->
+  <!-- 고객오더오류목록조회 --> 
+  
+ <!--made by 구희성 -->
+
+  	<statement name="insertBLStatusList">
+  	
+  	<!--DEM, DET 삽입-->
+	<![CDATA[
+	
+		INSERT INTO TB_OM02003 (
+								DEM_FRTIME_DAYS,
+								DET_FRTIME_DAYS
+		                         
+		                       )
+		VALUES(
+		       ${demFrtimeDays},
+		       ${detFrtimeDays}
+		      )
+		WHERE SALES_ORD_NO = ${salesOrdNo} 
+	]]>
+	</statement>
+	
+	<!--DEM, DET 수정	-->
+	
+	<statement name="updateBLStatusList">
+		<![CDATA[
+			
+			UPDATE
+				TB_OM02003
+			SET
+				DEM_FRTIME_DAYS= ${demFrtimeDays},
+		    	DET_FRTIME_DAYS= ${detFrtimeDays},
+		    	TOT_FRTIME_DAYS= ${demFrtimeDays}+${detFrtimeDays}
+			WHERE
+				sales_ord_no=${salesOrdNo}
+			
+	]]>
+	</statement>
+	
+	<statement name="deleteBLStatusList">
+	<!--DEM, DET 삭제	-->
+	<![CDATA[
+	
+	
+		DELETE
+		FROM TB_OM02003
+		WHERE SALES_ORD_NO = ${salesOrdNo}
+	]]>
+	</statement>	
+	
+    
+ </statements>
+
